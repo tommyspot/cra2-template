@@ -1,0 +1,32 @@
+$background: #E6E7E7;
+
+.wrapper {
+  width: 90%;
+  height: fit-content;
+  background-color: $background;
+  margin-top: 16px;
+
+  .title{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 8px;
+  }
+
+  :global{
+    .ant-checkbox-group{
+      padding: 16px 8px;
+    }
+    .ant-checkbox-wrapper{
+      display: block;
+      margin: 8px 0;
+
+      &:first-child{
+        margin-top: 0;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

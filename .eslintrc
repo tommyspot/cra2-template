@@ -14,7 +14,10 @@
     "import/newline-after-import": "error",
     "import/no-unresolved": "off",
     "jsx-a11y/media-has-caption": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "no-use-before-define": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "react/no-did-update-set-state": "off"
   },
   "globals": {
     "window": true,

@@ -1,16 +1,21 @@
+$primary-color: #D24344;
+
 .wrapper {
   height: 100%;
   display: grid;
   grid-template-areas:
-    'filter video'
-    'filter chart';
+    'filter report video'
+    'filter report chart';
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 2fr;
 
   .filter {
     grid-area: filter;
-    background: grey;
+  }
+
+  .report {
+    grid-area: report;
+    background: $primary-color;
   }
 
   .video {
@@ -19,6 +24,5 @@
 
   .chart {
     grid-area: chart;
-    background: blue;
   }
 }
