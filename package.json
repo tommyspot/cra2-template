@@ -1,12 +1,16 @@
 {
-  "name": "react-2-template",
+  "name": "dk-debate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.11",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-app-rewired": "^2.1.0",
     "react-dom": "^16.8.4",
+    "react-google-charts": "^3.0.11",
+    "react-player": "^1.10.0",
     "react-scripts": "2.1.5"
   },
   "scripts": {

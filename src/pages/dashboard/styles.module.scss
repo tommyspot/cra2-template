@@ -1,3 +1,24 @@
 .wrapper {
-  background: red;
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    'filter video'
+    'filter chart';
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 16px;
+
+  .filter {
+    grid-area: filter;
+    background: grey;
+  }
+
+  .video {
+    grid-area: video;
+  }
+
+  .chart {
+    grid-area: chart;
+    background: blue;
+  }
 }
